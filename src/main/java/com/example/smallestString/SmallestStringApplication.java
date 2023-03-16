@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SmallestStringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmallestStringApplication.class, args);
+
+		String str = "geeksforgeeks";
+		String pat = "ork";
+
+		System.out.print(SmallestString.findSmallestSubstring(str, pat));
 	}
 
 }
